@@ -33,5 +33,5 @@ Munurinn á Unity og Unreal Engine 4 sem eru báðar framúrskarandi leikjavéla
 Formúla: |a.center.x – b.center.x| < (a.size.x * b.size.x)
 (ef þetta er true þá er árekstur á þeim ás sem stærðin er minni.)
 -útskýringarmynd, eitt vitlaust! Þar sem stendur (2, 0) að ofan á að vera (0, 2)
- 
+ ![math](https://user-images.githubusercontent.com/33831578/51359193-817be680-1abe-11e9-83e2-870d7c8ee982.png)
 
