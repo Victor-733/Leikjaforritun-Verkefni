@@ -2,6 +2,7 @@
 #### Útskýrðu vel GameLoop í leikjagerð og í Unity.
 
 Game loopan er eitthvað sem er alltaf í gangi á meðan það er verið að spila leikinn. Loopan keyrir mishratt, algengast er að hún keyrir 60 sinnum á sekúndu eða 60 frames per second (FPS). Það sem það þýðir að í hvert skipti sem Loopan keyrir þá tekur leikurinn við input frá notandanum – uppfærir stöðu leiksins – teiknar leikinn á skjáinn 60 sinnum á sekúndu (ef FPS er 60).
+![loop](https://user-images.githubusercontent.com/33831578/51359171-627d5480-1abe-11e9-9334-eccb5626dedc.png)
 
  
 Unity GameLoop byggir á þessum reglum en gerir það á sinn eigin hátt. Til dæmis er Unity með 3 parta sem gerast í update partinum. Fixed-Update: Gerist mörgum sinnum á milli ramma ef FPS er í lægri kantinum, geti ekki þurft að nota það ef leikurinn uppfærist á háu FPS-i.  Update: venjulega update sem að keyrir einu sinni á ramma. Late-Update: Keyrir eftir að allt sem var inni í Update er búið að keyra. Gagnleg notkun á Late-Update væri t.d. hreyfing á myndavélinni. Eftir að Update er búið að keyra þá keyrir Late-Update og færir myndavélina.
