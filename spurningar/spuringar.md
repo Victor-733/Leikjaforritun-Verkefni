@@ -35,3 +35,53 @@ Formúla: |a.center.x – b.center.x| < (a.size.x * b.size.x)
 -útskýringarmynd, eitt vitlaust! Þar sem stendur (2, 0) að ofan á að vera (0, 2)
  ![math](https://user-images.githubusercontent.com/33831578/51359193-817be680-1abe-11e9-83e2-870d7c8ee982.png)
 
+## 4
+#### Hvað er e. asset? Nefndu algengar tegundir
+Assets eru hlutirnir sem þú getur notað í leikinn þinn eins og myndir eða hljóð fyrir einhvern hlut, líka til dæmis þrívíddarmódel fyrir kassa. Allir þessir hlutir eru eitthvað sem var ekki búið til í unity og var gert fyrirfram með einhverju öðru.
+
+## 5
+#### Hvað er e. game object og hvernig tengist það e. components í e. Inspector? 
+Game object er einhver hlutur sem þú setur í leikinn, til dæmis í "Tanks" leikinum þá er skriðdrekinn game object og Í Inspector getur þú breytt því hvernig Game Object-inn hagar sér í leiknum með því að breyta hraðanum á honum eða gefa honum meira líf.
+
+## 6
+#### Hvað er líkt og ólíkt með game object og prefab? 
+Game object er bara hluturinn sjálfur sem er í leiknum og hann notar prefab sem er eins konar template til að segja sér hvernig hann á að hegða sér. Prefab er bara hluturinn með öllum stillingunum sem var síðast vistað í Inspector á meðan Game Object er bara hluturinn í leiknum.
+
+## 7
+#### Hvert er samband þríhyrnings og e. mesh í 3D umhverfi?
+Mesh er öll grafíkin í leikjagerð, öll módelin í leikjum eru mesh og öll þessi mesh eru gerð úr einu formi, og þar er þessi þríhyrningur (triangle mesh) sem hluturinn er settur saman úr. 
+
+## 8
+#### Hvað er tags og layers? 
+#### Tag
+Tags eru leið til þess að flokka saman hluti í leiknum þínum sem þjóna líkum tilgangi. Eins og players og collectibles sem virka öll á sama hátt og þar með geturu sett sama reference í scriptu til að hafa áhrif á alla hluti með sama tag þegar eitthvað gerið við þá.
+
+#### Layers
+Layers eru mest notaðir fyrir myndavélina þegar þú vilt að hún renderar bara einhvern part af scene-inu eða fyrir lýsinguna ef þú vilt bara setja ljós á einhvern sérstakan part af scene-inu t.d. öll hús eða eitthvað.
+
+## 9
+#### Útskýrðu stuttlega hlutverk eftirfarandi glugga/svæði í Unity:
+<ol>
+<li> Scene view</li>
+Í scene view getur þú séð allt scene-ið og fært hluti til á x, y, z ásunum, gert hluti minni og lagað til hluti eins og hitboxes svo það passi.
+<li> Game view</li>
+Í game view getur þú séð hvenrig leikurinn spilast (hvernig manneskjas sem spilar leikinn upplifar hann). Gott að nota þetta til þess að prófa leikinn af og til svo þú getir verið viss um að þú ert ekki að gera neitt vitlaust.
+<li> Project</li>
+Í project glugganum sést öll prefabs hjá þér, assets og scripts. Svo getur þú dregið inn hlutina í Hierachy gluggann og ef það er game object á bætist það líka við í scene view eða leikinn.
+<li> Hierachy</li>
+Í Hierachy getur þú séð lista yfir öll game objects sem þú ert með í leiknum og það getur líka verið prefab með einhverjum game object. Þar getu þú eytt game object úr leiknum og dregið inn game object frá project glugganum.
+<li> Inspector</li>
+Í inspector getur þú still hlutinn þinn til að haga sér á ákveðinn hátt, þú getur bætt við ljósi þannig að það kemur ljós útfrá hlutnum eða einu component sem heitir Rigidbody sem lætur hlutinn verða undir áhrifum þyngdarafls.
+</ol>
+
+
+## 10
+#### Gerðu eftirfarandi í Unity:
+<ol>
+<li> Búðu til 3D project sem heitir V1_nafn</li>
+<li> Náðu í Standard Assets í Unity Store</li>
+<li> Búðu til senu (e. scene) og láttu það heita sena1.</li>
+<li> Búðu til jörð (Plane eða terrain) og settu lit á það eða e. mesh</li>
+<li> Búðu til 3D GameObject (kassa). Láttu hann líta raunverulega út.</li>
+<li> Bættu nokkrum tilbúnum umhverfis hlutum í senuna</li>
+</ol>
